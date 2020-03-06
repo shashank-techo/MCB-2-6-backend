@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: student-server
+  profiles:
+    active: dev
+  security:
+    enabled: false
+  data:
+    mongodb:
+      uri: 'mongodb://localhost:27017/local'
